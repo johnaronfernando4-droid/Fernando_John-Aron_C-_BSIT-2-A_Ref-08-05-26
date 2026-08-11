@@ -1,0 +1,37 @@
+Python 3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+name = "Aron"
+print(name)
+Aron
+age = "18"
+print(age)
+18
+weight = float("50.67")
+print(weight)
+50.67
+me = bool("True")
+print(me)
+True
+class porfile:
+    name = "John Aron L. Fernando"
+    age = "18"
+    address = "San Roque Guagua Pampanga"
+    favcolor = "Green"
+    print("My name is " + name + " and I am " + age + " years old, I lived in " + address + " and my favorite color is " + favcolor + ".")
+
+    
+My name is John Aron L. Fernando and I am 18 years old, I lived in San Roque Guagua Pampanga and my favorite color is Green.
+class profile:
+    name = input("Enter your name")
+    age = input("Enter your age")
+    address = input("Enter your address")
+    favcolor = input("Enter your favcolor")
+    print(f"My name is " + name + " and I am " + age + " years old, I lived in " + address + " and my favorite color is " + favcolor + ".")
+
+    
+Enter your name John Aron L. Fernando
+Enter your age 18 years old
+Enter your address San Roque Guagua Pampanga
+Enter your favcolor Green
+My name is  John Aron L. Fernando and I am  18 years old years old, I lived in  San Roque Guagua Pampanga and my favorite color is  Green.
+x
